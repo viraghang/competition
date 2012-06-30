@@ -11,6 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20120629184308) do
+
+  create_table "competitors", :force => true do |t|
+    t.string   "name",        :limit => 100, :null => false
+    t.string   "email",       :limit => 100, :null => false
+    t.string   "tender_name", :limit => 100, :null => false
+    t.integer  "telephone",                  :null => false
+    t.integer  "zipcode",                    :null => false
+    t.string   "address",     :limit => 100, :null => false
+    t.text     "comments"
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+    t.string   "image"
+    t.string   "terms"
+  end
 
 end

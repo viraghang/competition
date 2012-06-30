@@ -1,4 +1,8 @@
 Competition::Application.routes.draw do
+
+  root :to => "competitors#add"
+  match 'create', :to => 'competitors#create'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

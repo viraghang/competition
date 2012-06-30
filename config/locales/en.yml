@@ -3,3 +3,8 @@
 
 en:
   hello: "Hello world"
+  errors:
+    messages:
+      wrong_size: "is the wrong size (should be %{file_size})"
+      size_too_small: "is too small (should be at least %{file_size})"
+      size_too_big: "A feltöltésre szánt kép mérete túl nagy (a megengedett max. %{file_size})!"
