@@ -11,13 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120629184308) do
+ActiveRecord::Schema.define(:version => 20120701080634) do
 
   create_table "competitors", :force => true do |t|
     t.string   "name",        :limit => 100, :null => false
     t.string   "email",       :limit => 100, :null => false
     t.string   "tender_name", :limit => 100, :null => false
-    t.integer  "telephone",                  :null => false
+    t.string   "telephone",   :limit => 12,  :null => false
     t.integer  "zipcode",                    :null => false
     t.string   "address",     :limit => 100, :null => false
     t.text     "comments"
