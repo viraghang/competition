@@ -5,7 +5,7 @@ body {
 }
 
 #container {
-	margin: 20px auto 20px auto ;
+	margin: 0 auto 20px auto ;
 	width: 800px ;
 	height: 1500px ;
 	background-image: url('/assets/ombrello.png') ;
