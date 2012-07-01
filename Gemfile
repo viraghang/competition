@@ -7,6 +7,8 @@ gem 'rails', '3.2.6'
 
 gem 'mysql2'
 
+gem 'pg'
+
 gem 'carrierwave'
 
 # Gems used only for assets and not required
